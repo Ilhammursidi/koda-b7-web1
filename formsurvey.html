@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Perokok</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama">
+        </div>
+        <div>
+            <label for="umur">Umur</label>
+            <input type="text" id="umur">
+        </div>
+        <div>
+            <label>Jenis Kelamin</label>
+            <input type="radio" name="gender" id="L"><label for="L">Laki-laki</label>
+            <input type="radio" name="gender" id="P"><label for="P">Perempuan</label>
+        </div>
+        <div>
+            <label for="perokok">Apakah anda seorang perokok ?</label>
+            <select name="perokok" id="perokok">
+                <option value="false" disabled selected>Pilih</option>
+                <option value="ya">Ya</option>
+                <option value="tidak">Tidak</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Brand rokok yang digunakan</label>
+            <br>
+            <input type="checkbox" id="malboro"><label for="malboro">Malboro</label>
+            <input type="checkbox" id="sampoerna"><label for="sampoerna">Sampoerna</label>
+            <input type="checkbox" id="smith"><label for="smith">Smith</label>
+            <input type="checkbox" id="dunhill"><label for="dunhill">Dunhill</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
